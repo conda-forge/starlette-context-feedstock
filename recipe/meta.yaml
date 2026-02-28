@@ -1,5 +1,5 @@
 {% set name = "starlette-context" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/starlette_context-{{ version }}.tar.gz
-  sha256: 3242417c9354c067a4ac5009aff762dc0b322074216f664825d5d127108553be
+  sha256: f6025753f8ede041778b2f2c3823e2da9df3c2d94832575bcb59374216b7c2b2
 
 build:
   noarch: python
